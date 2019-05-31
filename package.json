@@ -1,0 +1,18 @@
+{
+  "name": "powerball-example",
+  "version": "1.0.0",
+  "description": "Powerball Draw Results React App",
+  "main": "index.js",
+  "author": "James Gosbell <jamesgosbell@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "typescript": "^3.5.1"
+  }
+}
