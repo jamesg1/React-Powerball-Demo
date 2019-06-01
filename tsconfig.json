@@ -9,7 +9,8 @@
     "noImplicitAny": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "lib": ["es5", "es6", "dom"]
+    "lib": ["es5", "es6", "dom"],
+    "types": ["node"]
   },
   "include": ["./src/**/*"]
 }
