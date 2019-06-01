@@ -8,3 +8,7 @@ node_modules
 dist
 build
 coverage
+
+# Testing
+.jest/
+coverage/

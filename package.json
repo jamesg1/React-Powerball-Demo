@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
-    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --fix"
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --fix",
+    "test": "./node_modules/.bin/jest --watch"
   },
   "husky": {
     "hooks": {
@@ -28,20 +29,32 @@
     "styled-components": "^4.2.1"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.9.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.13",
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
+    "@types/react-test-renderer": "^16.8.1",
     "@types/styled-components": "^4.1.15",
-    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/eslint-plugin": "^1.9.1-alpha.16",
     "@typescript-eslint/parser": "^1.9.0",
     "awesome-typescript-loader": "^5.2.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.2",
+    "enzyme-to-json": "^3.3.5",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^2.3.0",
+    "jest": "^24.8.0",
+    "jest-styled-components": "^6.3.1",
     "lint-staged": "^8.1.7",
     "prettier": "^1.17.1",
+    "react-test-renderer": "^16.8.6",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.5.1",
     "typescript-plugin-styled-components": "^1.4.3",
     "webpack": "^4.32.2",
