@@ -7,7 +7,7 @@ module.exports = {
   },
   entry: {
     app: ["./src/index.tsx"],
-    vendor: ["react", "react-dom"]
+    vendor: ["react", "react-dom", "styled-components"]
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -18,7 +18,13 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        loader: "awesome-typescript-loader"
+        loader: "awesome-typescript-loader",
+        options: {
+          getCustomTransformers: path.join(
+            __dirname,
+            "./webpack.ts-transformers.js"
+          )
+        }
       }
     ]
   },
