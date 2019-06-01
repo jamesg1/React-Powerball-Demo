@@ -10,8 +10,17 @@
     "removeComments": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "lib": ["es5", "es6", "dom"],
-    "types": ["node"]
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "types": [
+      "jest",
+      "node"
+    ]
   },
-  "include": ["./src/**/*"]
+  "include": [
+    "./src/**/*"
+  ]
 }
