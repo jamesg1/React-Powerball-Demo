@@ -1,5 +1,4 @@
-const createStyledComponentsTransformer = require("typescript-plugin-styled-components")
-  .default;
+const createStyledComponentsTransformer = require('typescript-plugin-styled-components').default;
 
 const styledComponentsTransformer = createStyledComponentsTransformer();
 

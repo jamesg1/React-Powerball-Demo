@@ -38,12 +38,19 @@ const Circle = styled.div<Props>`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 5px;
   font-family: ${fontFamily};
   font-size: 12px;
   font-weight: bold;
-  width: 25px;
-  height: 25px;
+  margin-right: 3px;
+  width: 22px;
+  height: 22px;
+
+  @media (min-width: 321px) {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+
   border-radius: 50%;
   ${(props: Props): any => getStyling(props)};
 `;
