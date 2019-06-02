@@ -19,7 +19,7 @@ module.exports = {
   },
   entry: {
     app: ['./src/index.tsx'],
-    vendor: ['react', 'react-dom', 'styled-components']
+    vendor: ['react', 'react-dom', 'react-redux', 'redux-saga', 'styled-components']
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
