@@ -1,5 +1,7 @@
 import React from 'react';
 
-const App: React.FC<{}> = () => <div>app</div>;
+import Play from 'pages/Play';
+
+const App: React.FC<{}> = () => <Play />;
 
 export default App;
