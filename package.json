@@ -15,7 +15,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsc --noEmit && eslint --fix src/"
+      "pre-commit": "yarn lint"
     }
   },
   "lint-staged": {
