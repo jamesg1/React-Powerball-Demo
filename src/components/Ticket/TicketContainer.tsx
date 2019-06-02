@@ -14,13 +14,14 @@ const Container = styled.div`
 `;
 
 const Label = styled.div`
-  width: 100%;
+  width: 98%;
   font-family: ${fontFamily};
   font-weight: bold;
   font-size: 10px;
   background-color: #879bab;
   color: white;
   text-transform: uppercase;
+  margin-top: 1px;
 `;
 
 const Numbers = styled.div`
