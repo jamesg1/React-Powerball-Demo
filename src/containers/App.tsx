@@ -1,6 +1,5 @@
 import React from 'react';
-
-import Play from 'pages/Play';
+import Play from './Play';
 
 const App: React.FC<{}> = () => <Play />;
 
