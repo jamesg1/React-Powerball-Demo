@@ -4,11 +4,12 @@ import {
   ResultsState,
   GET_RESULTS_START,
   GET_RESULTS_SUCCESS,
-  GET_RESULTS_FAILED
+  GET_RESULTS_FAILED,
+  CLEAR_RESULTS
 } from './types';
 
 export const initialState: ResultsState = {
-  entities: { PrimaryNumbers: [], SecondaryNumbers: [] },
+  entities: { primaryNumbers: [], secondaryNumbers: [] },
   api: {
     getResults: {
       loading: false,
@@ -18,7 +19,8 @@ export const initialState: ResultsState = {
   }
 };
 
-const defaultResultsState = { PrimaryNumbers: [], SecondaryNumbers: [] };
+const defaultResultsState = { primaryNumbers: [], secondaryNumbers: [] };
+const defaultAPIState = { loading: false, success: false, error: null };
 
 const ResultsReducer = (state = initialState, action: ResultsActionTypes): ResultsState => {
   return produce(state, (draft: ResultsState) => {
@@ -46,6 +48,10 @@ const ResultsReducer = (state = initialState, action: ResultsActionTypes): Resul
           success: false,
           error: action.error
         };
+        break;
+      case CLEAR_RESULTS:
+        draft.entities = defaultResultsState;
+        draft.api.getResults = defaultAPIState;
         break;
       default:
         return state;

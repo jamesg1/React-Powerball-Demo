@@ -23,10 +23,10 @@ export const getResults = function*(action: GetResultsAction) {
     if (response.status >= 200 && response.status < 300) {
       const {
         DrawResults: {
-          [0]: { PrimaryNumbers, SecondaryNumbers }
+          [0]: { PrimaryNumbers: primaryNumbers, SecondaryNumbers: secondaryNumbers }
         }
       } = yield response.json();
-      yield put(getResultsSuccess({ PrimaryNumbers, SecondaryNumbers }));
+      yield put(getResultsSuccess({ primaryNumbers, secondaryNumbers }));
     } else {
       const error = yield response.json();
       throw error;

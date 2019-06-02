@@ -6,6 +6,7 @@ import { fork, all } from 'redux-saga/effects';
 
 import { reducer as resultsReducer, sagas as resultsSagas } from './ducks/results';
 const rootReducer = combineReducers({ results: resultsReducer });
+export type AppState = ReturnType<typeof rootReducer>;
 
 const sagaMiddleware = createSagaMiddleware();
 

@@ -26,6 +26,7 @@ module.exports = {
       'react-redux',
       'redux-logger',
       'redux-saga',
+      'reselect',
       'styled-components'
     ]
   },

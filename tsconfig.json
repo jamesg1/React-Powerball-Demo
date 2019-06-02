@@ -4,6 +4,7 @@
     "outDir": "./dist/",
     "sourceMap": true,
     "target": "es5",
+    "downlevelIteration": true,
     "module": "commonjs",
     "jsx": "react",
     "strict": true,

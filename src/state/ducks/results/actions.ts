@@ -5,6 +5,7 @@ import {
   GET_RESULTS_START,
   GET_RESULTS_SUCCESS,
   GET_RESULTS_FAILED,
+  CLEAR_RESULTS,
   ResultsActionTypes
 } from './types';
 
@@ -26,5 +27,11 @@ export function getResultsFailed(error: APIError): ResultsActionTypes {
   return {
     type: GET_RESULTS_FAILED,
     error
+  };
+}
+
+export function clearResults(): ResultsActionTypes {
+  return {
+    type: CLEAR_RESULTS
   };
 }

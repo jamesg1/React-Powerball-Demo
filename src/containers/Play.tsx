@@ -1,8 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
-import { NumberCircle, Icon } from 'components';
-import { getResults, ResultsRequest, ResultsActionTypes } from 'state/ducks/results';
+import { NumberCircle, Icon, TicketContainer } from 'components';
+import {
+  selectEntities,
+  selectApi,
+  getResults,
+  clearResults,
+  ResultsRequest,
+  ResultsActionTypes,
+  APIError
+} from 'state/ducks/results';
+import { AppState } from '../state/store';
+import { range } from 'utils';
 
 const fontFamily = 'Muli, sans-serif';
 
@@ -10,12 +20,14 @@ const SelectedNumbers = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 15px;
 `;
 
 const Draw = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
   flex-grow: 2;
   font-family: ${fontFamily};
   font-weight: bold;
@@ -28,12 +40,16 @@ const Actions = styled.div`
 `;
 
 const Container = styled.div`
+  margin: 0 auto;
   max-width: 500px;
   display: flex;
 `;
 
 const TicketNumbers = styled.div`
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex-grow: 2;
 `;
 
@@ -48,6 +64,7 @@ const Button = styled.button`
   margin-right: 3px;
   width: 22px;
   height: 22px;
+  transition: all 400ms ease-in;
 
   @media (min-width: 321px) {
     width: 25px;
@@ -65,13 +82,29 @@ const Button = styled.button`
     variant === 'prefill' ? '#6c4398' : '#757575'};
 `;
 
+const Error = styled.div`
+  padding: 15px 0;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ${fontFamily};
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+`;
+
 interface Button {
   variant: string;
 }
 
 interface Props {
   getResults: (resultsRequest: ResultsRequest) => ResultsActionTypes;
+  clearResults: () => ResultsActionTypes;
   loading: boolean;
+  error?: APIError | null;
+  primaryNumbers: number[];
+  secondaryNumbers: number[];
 }
 
 const query = {
@@ -81,32 +114,47 @@ const query = {
 };
 
 class PlayPage extends React.PureComponent<Props> {
+  primaryRange = [...range(0, 6)];
+
   getResults = () => {
     this.props.getResults(query);
   };
 
+  clearResults = () => {
+    this.props.clearResults();
+  };
+
   render() {
-    const { loading } = this.props;
+    const { loading, error, primaryNumbers, secondaryNumbers } = this.props;
     return (
       <Container>
         <Draw>1</Draw>
         <TicketNumbers>
           <SelectedNumbers>
-            <NumberCircle />
-            <NumberCircle />
-            <NumberCircle number={1} />
-            <NumberCircle number={21} />
-            <NumberCircle number={5} />
-            <NumberCircle number={35} powerballNumber={true} />
-            <NumberCircle />
-            <NumberCircle powerballNumber={true} />
+            {this.primaryRange.map((value, index) => (
+              <NumberCircle key={`p-${value}`} number={primaryNumbers[index]} />
+            ))}
+            <NumberCircle
+              key={`s-${secondaryNumbers[0]}`}
+              number={secondaryNumbers[0]}
+              powerballNumber={true}
+            />
           </SelectedNumbers>
+          <TicketContainer numbers={primaryNumbers} end={35} />
+          <TicketContainer numbers={secondaryNumbers} end={20} label="Select your powerball" />
+          {error && error.ErrorInfo && (
+            <Error>
+              {`An error has occured fetching the latest results, please try again. ${
+                error.ErrorInfo.DisplayMessage
+              }`}
+            </Error>
+          )}
         </TicketNumbers>
         <Actions>
           <Button type="submit" onClick={this.getResults} variant="prefill" disabled={loading}>
             <Icon name="lightning" width="60%" />
           </Button>
-          <Button type="submit" variant="clear">
+          <Button type="submit" onClick={this.clearResults} variant="clear">
             <Icon name="trash" width="60%" />
           </Button>
         </Actions>
@@ -115,12 +163,16 @@ class PlayPage extends React.PureComponent<Props> {
   }
 }
 
-const mapStateToProps = (state: any, props: any) => ({
-  loading: state.results.api.getResults.loading
+const mapStateToProps = (state: AppState) => ({
+  loading: selectApi(state).getResults.loading,
+  error: selectApi(state).getResults.error,
+  primaryNumbers: selectEntities(state).primaryNumbers || [],
+  secondaryNumbers: selectEntities(state).secondaryNumbers || []
 });
 
 const actions = {
-  getResults
+  getResults,
+  clearResults
 };
 
 export default connect(
