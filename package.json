@@ -7,6 +7,7 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
+    "start": "yarn dev",
     "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --fix",
@@ -55,6 +56,7 @@
     "prettier": "^1.17.1",
     "react-test-renderer": "^16.8.6",
     "ts-jest": "^24.0.2",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
     "typescript": "^3.5.1",
     "typescript-plugin-styled-components": "^1.4.3",
     "webpack": "^4.32.2",
