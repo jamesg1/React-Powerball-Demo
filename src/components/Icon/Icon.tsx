@@ -1,11 +1,12 @@
 import React from 'react';
 import Lightning from './Lightning';
 import Trash from './Trash';
+import Cross from './Cross';
 
 export interface IconProps {
   width?: number | string;
   fill?: string;
-  name: 'lightning' | 'trash';
+  name: 'lightning' | 'trash' | 'cross';
 }
 
 const Icon: React.FC<IconProps> = (props: IconProps) => {
@@ -14,6 +15,8 @@ const Icon: React.FC<IconProps> = (props: IconProps) => {
       return <Lightning {...props} />;
     case 'trash':
       return <Trash {...props} />;
+    case 'cross':
+      return <Cross {...props} />;
     default:
       return null;
   }

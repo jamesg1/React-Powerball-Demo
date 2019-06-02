@@ -44,6 +44,7 @@ const Circle = styled.div<Props>`
   margin-right: 3px;
   width: 22px;
   height: 22px;
+  transition: all 400ms ease-in;
 
   @media (min-width: 321px) {
     width: 25px;

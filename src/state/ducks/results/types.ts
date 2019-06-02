@@ -11,8 +11,8 @@ export interface ResultsRequest {
 }
 
 export interface Results {
-  PrimaryNumbers: number[];
-  SecondaryNumbers: number[];
+  primaryNumbers: number[];
+  secondaryNumbers: number[];
 }
 
 export interface APIError {
@@ -27,7 +27,7 @@ export interface APIError {
 }
 
 export interface ResultsState {
-  entities: { PrimaryNumbers: number[]; SecondaryNumbers: number[] };
+  entities: { primaryNumbers: number[]; secondaryNumbers: number[] };
   api: {
     getResults: {
       loading: boolean;
@@ -43,6 +43,7 @@ export interface ResultsState {
 export const GET_RESULTS_START = 'tabcorp/powerball/GET_RESULTS_START';
 export const GET_RESULTS_SUCCESS = 'tabcorp/powerball/GET_RESULTS_SUCCESS';
 export const GET_RESULTS_FAILED = 'tabcorp/powerball/GET_RESULTS_FAILED';
+export const CLEAR_RESULTS = 'tabcorp/powerball/CLEAR_RESULTS';
 
 /**
  * Action Creator Types
@@ -62,7 +63,12 @@ export interface GetResultsFailedAction {
   error: APIError;
 }
 
+export interface ClearResultsAction {
+  type: typeof CLEAR_RESULTS;
+}
+
 export type ResultsActionTypes =
   | GetResultsAction
   | GetResultsSuccessAction
-  | GetResultsFailedAction;
+  | GetResultsFailedAction
+  | ClearResultsAction;
