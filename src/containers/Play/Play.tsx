@@ -1,6 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { NumberCircle, Icon, Ticket } from '../../components';
+
+import { NumberCircle, Icon, Ticket } from 'components';
+
 import {
   selectEntities,
   selectApi,

@@ -1,6 +1,11 @@
-import React from 'react';
-import Play from './Play';
+import React, { lazy, Suspense } from 'react';
 
-const App: React.FC<{}> = () => <Play />;
+const PlayPage = lazy(() => import('./Play'));
+
+const App: React.FC<{}> = () => (
+  <Suspense fallback={<div />}>
+    <PlayPage />
+  </Suspense>
+);
 
 export default App;
