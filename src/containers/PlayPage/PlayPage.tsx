@@ -43,7 +43,7 @@ const query = {
   OptionalProductFilter: ['Powerball']
 };
 
-export class Play extends React.PureComponent<Props> {
+export class PlayPage extends React.PureComponent<Props> {
   primaryRange = [...range(0, 6)];
 
   getResults = () => {
@@ -72,11 +72,10 @@ export class Play extends React.PureComponent<Props> {
           </SelectedNumbers>
           <Ticket numbers={primaryNumbers} end={35} />
           <Ticket numbers={secondaryNumbers} end={20} label="Select your powerball" />
-          {error && error.ErrorInfo && (
+          {error && (
             <Error>
-              {`An error has occured fetching the latest results, please try again. ${
-                error.ErrorInfo.DisplayMessage
-              }`}
+              {`An error has occured fetching the latest results, please try again. ${error.ErrorInfo &&
+                error.ErrorInfo.DisplayMessage}`}
             </Error>
           )}
         </TicketContainer>
@@ -112,4 +111,4 @@ const actions = {
 export default connect(
   mapStateToProps,
   actions
-)(Play);
+)(PlayPage);
