@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import { NumberCircle, Icon, Ticket } from 'components';
+import { Actions, NumberCircle, Ticket } from 'components';
 
 import {
   selectEntities,
@@ -14,15 +14,7 @@ import {
 } from '../../state/ducks/results';
 import { AppState } from '../../state/store';
 import { range } from '../../utils';
-import {
-  SelectedNumbers,
-  Actions,
-  TicketContainer,
-  StyledButton,
-  Container,
-  Draw,
-  Error
-} from './Styled';
+import { SelectedNumbers, TicketContainer, Container, Draw, Error } from './Styled';
 
 export interface Button {
   variant: string;
@@ -79,18 +71,11 @@ export class PlayPage extends React.PureComponent<Props> {
             </Error>
           )}
         </TicketContainer>
-        <Actions>
-          <StyledButton
-            type="submit"
-            onClick={this.getResults}
-            variant="prefill"
-            disabled={loading}>
-            <Icon name="lightning" width="60%" />
-          </StyledButton>
-          <StyledButton type="submit" onClick={this.clearResults} variant="clear">
-            <Icon name="trash" width="60%" />
-          </StyledButton>
-        </Actions>
+        <Actions
+          loading={loading}
+          getResultsOnClick={this.getResults}
+          clearOnClick={this.clearResults}
+        />
       </Container>
     );
   }

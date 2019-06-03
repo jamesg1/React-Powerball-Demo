@@ -6,7 +6,9 @@ const theme = {
     grey: '#cdcdcd',
     darkGrey: '#444444',
     silver: '#879bab',
-    white: '#ffffff'
+    white: '#ffffff',
+    prefill: '#6c4398',
+    delete: '#757575'
   },
   fonts: {
     primary: 'Muli, sans-serif'

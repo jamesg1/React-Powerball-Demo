@@ -11,6 +11,8 @@ declare module 'styled-components' {
       darkGrey: string;
       silver: string;
       white: string;
+      prefill: string;
+      delete: string;
     };
     fonts: {
       primary: string;
