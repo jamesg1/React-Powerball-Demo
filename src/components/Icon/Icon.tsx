@@ -1,7 +1,7 @@
 import React from 'react';
-import Lightning from './Lightning';
-import Trash from './Trash';
-import Cross from './Cross';
+import Lightning from './Icons/Lightning';
+import Trash from './Icons/Trash';
+import Cross from './Icons/Cross';
 
 export interface IconProps {
   width?: number | string;
@@ -24,7 +24,7 @@ const Icon: React.FC<IconProps> = (props: IconProps) => {
 
 Icon.defaultProps = {
   width: '100%',
-  fill: '#FFF'
+  fill: '#ffffff'
 };
 
 export default Icon;

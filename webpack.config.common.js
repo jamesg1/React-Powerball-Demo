@@ -2,6 +2,7 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
   resolve: {
@@ -44,10 +45,14 @@ module.exports = {
     filename: 'js/[name].bundle.js'
   },
   devtool: 'source-map',
+  devServer: {
+    hot: true
+  },
   plugins: [
     new HtmlWebPackPlugin({
       template: './src/index.html',
       favicon: 'favicon.ico'
-    })
+    }),
+    new webpack.HotModuleReplacementPlugin()
   ]
 };

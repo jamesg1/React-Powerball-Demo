@@ -1,6 +1,8 @@
 module.exports = {
-  preset: 'ts-jest',
+  collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', '!src/**/*.d.ts'],
+  roots: ['<rootDir>/src/'],
   testEnvironment: 'node',
-  snapshotSerializers: ['enzyme-to-json/serializer'],
-  setupFilesAfterEnv: ['<rootDir>/config/setupTests.ts']
+  testPathIgnorePatterns: ['/build', '/dist/', '/examples/', '/node_modules/'],
+  roots: ['<rootDir>', './src'],
+  modulePaths: ['<rootDir>', './src']
 };
