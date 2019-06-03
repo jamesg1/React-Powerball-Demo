@@ -4,7 +4,7 @@ const common = require('./webpack.config.common.js');
 
 module.exports = merge(common, {
   mode: 'production',
-  devtool: 'false',
+  devtool: 'off',
   devServer: {
     compress: true
   }

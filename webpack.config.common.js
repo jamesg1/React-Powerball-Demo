@@ -18,13 +18,17 @@ module.exports = {
       {
         test: /\.(ts|js)x?$/,
         exclude: /node_modules/,
-        loader: 'babel-loader'
+        loader: ['react-hot-loader/webpack', 'babel-loader']
       }
     ]
   },
   optimization: {
     runtimeChunk: {
       name: 'vendor'
+    },
+    splitChunks: {
+      chunks: 'all',
+      minChunks: 2
     }
   },
   entry: {
@@ -37,22 +41,20 @@ module.exports = {
       'redux-logger',
       'redux-saga',
       'reselect',
-      'styled-components'
+      'styled-components',
+      'styled-normalize'
     ]
   },
+
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].bundle.js'
   },
-  devtool: 'source-map',
-  devServer: {
-    hot: true
-  },
   plugins: [
+    new webpack.ProgressPlugin(),
     new HtmlWebPackPlugin({
       template: './src/index.html',
       favicon: 'favicon.ico'
-    }),
-    new webpack.HotModuleReplacementPlugin()
+    })
   ]
 };
