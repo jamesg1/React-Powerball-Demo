@@ -14,6 +14,7 @@
     "@babel/typescript"
   ],
   "plugins": [
+    "babel-plugin-styled-components",
     "@babel/plugin-syntax-dynamic-import",
     "@babel/plugin-proposal-class-properties",
     "@babel/proposal-object-rest-spread",

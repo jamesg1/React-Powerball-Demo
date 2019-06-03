@@ -8,15 +8,16 @@
   "private": true,
   "scripts": {
     "start": "yarn dev",
-    "dev": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
-    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --fix",
+    "dev": "webpack-dev-server --config webpack.config.dev.js",
+    "build": "webpack --config  webpack.config.prod.js",
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --fix --quiet",
     "test": "./node_modules/.bin/jest --watch",
+    "test:coverage": "./node_modules/.bin/jest --coverage",
     "type-check": "tsc --noEmit"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint"
+      "pre-commit": "yarn test:coverage"
     }
   },
   "lint-staged": {
@@ -33,7 +34,8 @@
     "redux-logger": "^3.0.6",
     "redux-saga": "^1.0.2",
     "reselect": "^4.0.0",
-    "styled-components": "^4.2.1"
+    "styled-components": "^4.2.1",
+    "styled-normalize": "^8.0.6"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -47,8 +49,6 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.2",
     "@babel/runtime": "^7.4.5",
-    "@types/enzyme": "^3.9.3",
-    "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/jest": "^24.0.13",
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
@@ -58,12 +58,9 @@
     "@types/styled-components": "^4.1.15",
     "@typescript-eslint/eslint-plugin": "^1.9.1-alpha.16",
     "@typescript-eslint/parser": "^1.9.0",
-    "add": "^2.0.6",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "8.0.4",
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.13.2",
-    "enzyme-to-json": "^3.3.5",
+    "babel-plugin-styled-components": "^1.10.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
@@ -77,13 +74,13 @@
     "prettier": "^1.17.1",
     "react-test-renderer": "^16.8.6",
     "redux-devtools-extension": "^2.13.8",
-    "ts-jest": "^24.0.2",
     "tsconfig-paths-webpack-plugin": "^3.2.0",
     "typescript": "^3.5.1",
     "typescript-plugin-styled-components": "^1.4.3",
     "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.5.0",
+    "webpack-merge": "^4.2.1",
     "yarn": "^1.16.0"
   }
 }

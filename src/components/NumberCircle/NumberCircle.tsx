@@ -3,16 +3,16 @@ import { Circle, Label } from './Styled';
 
 export interface Props {
   number?: number;
-  powerballNumber?: boolean;
+  isPowerball?: boolean;
 }
 
 const powerBallLabel = 'PB';
 
-const NumberCircle: React.FC<Props> = ({ number, powerballNumber }: Props) => {
-  const label = !number && powerballNumber ? powerBallLabel : number;
+const NumberCircle: React.FC<Props> = ({ number, isPowerball }: Props) => {
+  const label = isPowerball && powerBallLabel;
   return (
-    <Circle number={number} powerballNumber={powerballNumber}>
-      <Label>{label}</Label>
+    <Circle number={number} isPowerball={isPowerball}>
+      <Label>{number || label}</Label>
     </Circle>
   );
 };
