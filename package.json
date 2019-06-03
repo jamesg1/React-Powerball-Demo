@@ -7,24 +7,18 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "start": "yarn dev",
-    "dev": "webpack-dev-server --hot --inline --open --config webpack.config.dev.js",
-    "build": "rimraf dist && webpack --config webpack.config.prod.js",
-    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "start": "cross-env NODE_ENV=development && yarn dev",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --open --config webpack.config.dev.js",
+    "build": "cross-env NODE_ENV=development && rimraf dist && webpack --config webpack.config.prod.js",
+    "lint": "tsc --noEmit && eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
     "test": "./node_modules/.bin/jest --watch",
     "test:coverage": "./node_modules/.bin/jest --coverage",
     "type-check": "tsc --noEmit"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn test:coverage"
+      "pre-commit": "yarn lint && yarn test:coverage"
     }
-  },
-  "lint-staged": {
-    "*.{js,ts,tsx,jsx}": [
-      "eslint . --fix",
-      "git add"
-    ]
   },
   "dependencies": {
     "immer": "^3.1.2",
@@ -77,7 +71,6 @@
     "jest-styled-components": "^6.3.1",
     "jsdom": "^15.1.1",
     "jsdom-global": "^3.0.2",
-    "lint-staged": "^8.1.7",
     "prettier": "^1.17.1",
     "react-hot-loader": "^4.9.0",
     "react-test-renderer": "^16.8.6",
