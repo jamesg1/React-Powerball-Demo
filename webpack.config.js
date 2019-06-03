@@ -12,6 +12,15 @@ module.exports = {
       })
     ]
   },
+  module: {
+    rules: [
+      {
+        test: /\.(ts|js)x?$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      }
+    ]
+  },
   optimization: {
     runtimeChunk: {
       name: 'vendor'
@@ -35,17 +44,6 @@ module.exports = {
     filename: 'js/[name].bundle.js'
   },
   devtool: 'source-map',
-  module: {
-    rules: [
-      {
-        test: /\.tsx?$/,
-        loader: 'awesome-typescript-loader',
-        options: {
-          getCustomTransformers: path.join(__dirname, './webpack.ts-transformers.js')
-        }
-      }
-    ]
-  },
   plugins: [
     new HtmlWebPackPlugin({
       template: './src/index.html',
