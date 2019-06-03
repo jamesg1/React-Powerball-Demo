@@ -1,4 +1,4 @@
-import { Button } from './Play';
+import { Button } from './PlayPage';
 import styled from 'styled-components';
 
 const SelectedNumbers = styled.div`

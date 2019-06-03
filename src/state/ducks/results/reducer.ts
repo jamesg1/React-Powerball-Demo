@@ -19,7 +19,7 @@ export const initialState: ResultsState = {
   }
 };
 
-const defaultResultsState = { primaryNumbers: [], secondaryNumbers: [] };
+export const defaultResultsState = { primaryNumbers: [], secondaryNumbers: [] };
 const defaultAPIState = { loading: false, success: false, error: null };
 
 const ResultsReducer = (state = initialState, action: ResultsActionTypes): ResultsState => {
