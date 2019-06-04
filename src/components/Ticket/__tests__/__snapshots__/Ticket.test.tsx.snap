@@ -53,6 +53,8 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
   -webkit-transition: all 400ms ease-in border:1px solid #cdcdcd;
   transition: all 400ms ease-in border:1px solid #cdcdcd;
   margin: 0 -1px -1px 0;
+  -webkit-transition: all 400ms ease-in;
+  transition: all 400ms ease-in;
 }
 
 .c3 > span {
@@ -94,6 +96,8 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
   -webkit-transition: all 400ms ease-in border:1px solid #cdcdcd;
   transition: all 400ms ease-in border:1px solid #cdcdcd;
   margin: 0 -1px -1px 0;
+  -webkit-transition: all 400ms ease-in;
+  transition: all 400ms ease-in;
 }
 
 .c4 > span {
@@ -385,6 +389,8 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
   -webkit-transition: all 400ms ease-in border:1px solid #cdcdcd;
   transition: all 400ms ease-in border:1px solid #cdcdcd;
   margin: 0 -1px -1px 0;
+  -webkit-transition: all 400ms ease-in;
+  transition: all 400ms ease-in;
 }
 
 .c2 > span {
@@ -426,6 +432,8 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
   -webkit-transition: all 400ms ease-in border:1px solid #cdcdcd;
   transition: all 400ms ease-in border:1px solid #cdcdcd;
   margin: 0 -1px -1px 0;
+  -webkit-transition: all 400ms ease-in;
+  transition: all 400ms ease-in;
 }
 
 .c3 > span {
