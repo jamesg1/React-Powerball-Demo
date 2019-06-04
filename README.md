@@ -2,7 +2,7 @@
 
 This is a react typescript demo project which auto-fills ticket numbers based on the results of the last Powerball draw. 
 
-<img width="300" alt="Screenshot" src="https://user-images.githubusercontent.com/51249461/58845020-f0985700-86bc-11e9-845c-7788eaff51ca.png">
+<img width="400" alt="Screenshot" src="https://user-images.githubusercontent.com/51249461/58845020-f0985700-86bc-11e9-845c-7788eaff51ca.png">
 
 Languages / Framework / Dependenies used:
 * Typescript for static type checking
@@ -22,7 +22,7 @@ Languages / Framework / Dependenies used:
 To build and run this project it requires Node and npm/yarn.
 
 See links below to install:
-- Node - https://nodejs.org/en/
+- Node - https://nodejs.org/en/ - v11.14.0 recommended
 - NPM / Yarn - https://yarnpkg.com/en/docs/install#mac-stable
 
 ## Installation
