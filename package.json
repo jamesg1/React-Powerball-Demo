@@ -12,7 +12,7 @@
     "build": "cross-env NODE_ENV=development && rimraf dist && webpack --config webpack.config.prod.js",
     "lint": "tsc --noEmit && eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
     "test": "./node_modules/.bin/jest --watch",
-    "test:ci": "cross-env CI=true && ./node_modules/.bin/jest --watch",
+    "test:ci": "cross-env CI=true && ./node_modules/.bin/jest --maxWorkers=4",
     "test:coverage": "./node_modules/.bin/jest --coverage",
     "type-check": "tsc --noEmit",
     "cy:run": "cypress run --browser chrome",
