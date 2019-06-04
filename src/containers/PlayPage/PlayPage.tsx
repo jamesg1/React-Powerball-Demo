@@ -50,9 +50,9 @@ export class PlayPage extends React.PureComponent<Props> {
     const { loading, error, primaryNumbers, secondaryNumbers } = this.props;
     return (
       <Container>
-        <Draw>1</Draw>
-        <TicketContainer>
-          <SelectedNumbers>
+        <Draw id="draw">1</Draw>
+        <TicketContainer id="ticket-container">
+          <SelectedNumbers id="selected-numbers">
             {this.primaryRange.map((value, index) => (
               <NumberCircle key={`p-${value}`} number={primaryNumbers[index]} />
             ))}
@@ -65,10 +65,7 @@ export class PlayPage extends React.PureComponent<Props> {
           <Ticket numbers={primaryNumbers} end={35} />
           <Ticket numbers={secondaryNumbers} end={20} label="Select your powerball" />
           {error && (
-            <Error>
-              {`An error has occured fetching the latest results, please try again. ${error.ErrorInfo &&
-                error.ErrorInfo.DisplayMessage}`}
-            </Error>
+            <Error>{`An error has occured fetching the latest results, please try again.`}</Error>
           )}
         </TicketContainer>
         <Actions

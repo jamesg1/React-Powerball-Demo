@@ -10,8 +10,9 @@ const powerBallLabel = 'PB';
 
 const NumberCircle: React.FC<Props> = ({ number, isPowerball }: Props) => {
   const label = isPowerball && powerBallLabel;
+  const idLabel = isPowerball ? 'powerball' : 'primary';
   return (
-    <Circle number={number} isPowerball={isPowerball}>
+    <Circle data-cy={`numberCircle__${idLabel}`} number={number} isPowerball={isPowerball}>
       <Label>{number || label}</Label>
     </Circle>
   );

@@ -380,17 +380,21 @@ exports[`Play page it renders error message 1`] = `
 >
   <div
     className="c1"
+    id="draw"
   >
     1
   </div>
   <div
     className="c2"
+    id="ticket-container"
   >
     <div
       className="c3"
+      id="selected-numbers"
     >
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -400,6 +404,7 @@ exports[`Play page it renders error message 1`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -409,6 +414,7 @@ exports[`Play page it renders error message 1`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -418,6 +424,7 @@ exports[`Play page it renders error message 1`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -427,6 +434,7 @@ exports[`Play page it renders error message 1`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -436,6 +444,7 @@ exports[`Play page it renders error message 1`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -445,6 +454,7 @@ exports[`Play page it renders error message 1`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -454,6 +464,7 @@ exports[`Play page it renders error message 1`] = `
       </div>
       <div
         className="c5"
+        data-cy="numberCircle__powerball"
       >
         <span
           className=""
@@ -470,6 +481,7 @@ exports[`Play page it renders error message 1`] = `
       >
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -491,6 +503,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -512,6 +525,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -533,6 +547,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -554,6 +569,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -575,6 +591,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -583,6 +600,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -591,6 +609,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -599,6 +618,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -607,6 +627,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -628,6 +649,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -636,6 +658,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -644,6 +667,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -652,6 +676,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -660,6 +685,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -668,6 +694,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -676,6 +703,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -684,6 +712,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -692,6 +721,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -700,6 +730,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -721,6 +752,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -729,6 +761,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -737,6 +770,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -745,6 +779,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -753,6 +788,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -761,6 +797,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -769,6 +806,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -777,6 +815,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -785,6 +824,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -793,6 +833,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -801,6 +842,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -809,6 +851,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -817,6 +860,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -825,6 +869,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -833,6 +878,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -846,6 +892,7 @@ exports[`Play page it renders error message 1`] = `
     >
       <div
         className="c10"
+        data-cy="powerball-label"
       >
         Select your powerball
       </div>
@@ -854,6 +901,7 @@ exports[`Play page it renders error message 1`] = `
       >
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -862,6 +910,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -870,6 +919,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -878,6 +928,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -886,6 +937,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -894,6 +946,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -902,6 +955,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -910,6 +964,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -918,6 +973,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -926,6 +982,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -934,6 +991,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -942,6 +1000,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -950,6 +1009,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -958,6 +1018,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -966,6 +1027,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -974,6 +1036,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -982,6 +1045,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -990,6 +1054,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -998,6 +1063,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected__powerball"
           selected={true}
         >
           <svg
@@ -1019,6 +1085,7 @@ exports[`Play page it renders error message 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -1030,7 +1097,7 @@ exports[`Play page it renders error message 1`] = `
     <div
       className="c11"
     >
-      An error has occured fetching the latest results, please try again. Error Message example
+      An error has occured fetching the latest results, please try again.
     </div>
   </div>
   <div
@@ -1461,17 +1528,21 @@ exports[`Play page it renders error message 2`] = `
 >
   <div
     className="c1"
+    id="draw"
   >
     1
   </div>
   <div
     className="c2"
+    id="ticket-container"
   >
     <div
       className="c3"
+      id="selected-numbers"
     >
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -1481,6 +1552,7 @@ exports[`Play page it renders error message 2`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -1490,6 +1562,7 @@ exports[`Play page it renders error message 2`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -1499,6 +1572,7 @@ exports[`Play page it renders error message 2`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -1508,6 +1582,7 @@ exports[`Play page it renders error message 2`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -1517,6 +1592,7 @@ exports[`Play page it renders error message 2`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -1526,6 +1602,7 @@ exports[`Play page it renders error message 2`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -1535,6 +1612,7 @@ exports[`Play page it renders error message 2`] = `
       </div>
       <div
         className="c5"
+        data-cy="numberCircle__powerball"
       >
         <span
           className=""
@@ -1551,6 +1629,7 @@ exports[`Play page it renders error message 2`] = `
       >
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -1572,6 +1651,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -1593,6 +1673,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -1614,6 +1695,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -1635,6 +1717,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -1656,6 +1739,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1664,6 +1748,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1672,6 +1757,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1680,6 +1766,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1688,6 +1775,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -1709,6 +1797,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1717,6 +1806,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1725,6 +1815,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1733,6 +1824,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1741,6 +1833,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1749,6 +1842,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1757,6 +1851,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1765,6 +1860,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1773,6 +1869,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1781,6 +1878,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -1802,6 +1900,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1810,6 +1909,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1818,6 +1918,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1826,6 +1927,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1834,6 +1936,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1842,6 +1945,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1850,6 +1954,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1858,6 +1963,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1866,6 +1972,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1874,6 +1981,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1882,6 +1990,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1890,6 +1999,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1898,6 +2008,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1906,6 +2017,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1914,6 +2026,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -1927,6 +2040,7 @@ exports[`Play page it renders error message 2`] = `
     >
       <div
         className="c10"
+        data-cy="powerball-label"
       >
         Select your powerball
       </div>
@@ -1935,6 +2049,7 @@ exports[`Play page it renders error message 2`] = `
       >
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -1943,6 +2058,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -1951,6 +2067,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -1959,6 +2076,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -1967,6 +2085,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -1975,6 +2094,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -1983,6 +2103,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -1991,6 +2112,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -1999,6 +2121,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -2007,6 +2130,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -2015,6 +2139,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -2023,6 +2148,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -2031,6 +2157,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -2039,6 +2166,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -2047,6 +2175,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -2055,6 +2184,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -2063,6 +2193,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -2071,6 +2202,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -2079,6 +2211,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected__powerball"
           selected={true}
         >
           <svg
@@ -2100,6 +2233,7 @@ exports[`Play page it renders error message 2`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -2111,7 +2245,7 @@ exports[`Play page it renders error message 2`] = `
     <div
       className="c11"
     >
-      An error has occured fetching the latest results, please try again. undefined
+      An error has occured fetching the latest results, please try again.
     </div>
   </div>
   <div
@@ -2522,17 +2656,21 @@ exports[`Play page it renders play page 1`] = `
 >
   <div
     className="c1"
+    id="draw"
   >
     1
   </div>
   <div
     className="c2"
+    id="ticket-container"
   >
     <div
       className="c3"
+      id="selected-numbers"
     >
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -2542,6 +2680,7 @@ exports[`Play page it renders play page 1`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -2551,6 +2690,7 @@ exports[`Play page it renders play page 1`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -2560,6 +2700,7 @@ exports[`Play page it renders play page 1`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -2569,6 +2710,7 @@ exports[`Play page it renders play page 1`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -2578,6 +2720,7 @@ exports[`Play page it renders play page 1`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -2587,6 +2730,7 @@ exports[`Play page it renders play page 1`] = `
       </div>
       <div
         className="c4"
+        data-cy="numberCircle__primary"
       >
         <span
           className=""
@@ -2596,6 +2740,7 @@ exports[`Play page it renders play page 1`] = `
       </div>
       <div
         className="c5"
+        data-cy="numberCircle__powerball"
       >
         <span
           className=""
@@ -2612,6 +2757,7 @@ exports[`Play page it renders play page 1`] = `
       >
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -2633,6 +2779,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -2654,6 +2801,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -2675,6 +2823,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -2696,6 +2845,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -2717,6 +2867,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2725,6 +2876,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2733,6 +2885,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2741,6 +2894,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2749,6 +2903,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -2770,6 +2925,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2778,6 +2934,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2786,6 +2943,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2794,6 +2952,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2802,6 +2961,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2810,6 +2970,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2818,6 +2979,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2826,6 +2988,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2834,6 +2997,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2842,6 +3006,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected"
           selected={true}
         >
           <svg
@@ -2863,6 +3028,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2871,6 +3037,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2879,6 +3046,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2887,6 +3055,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2895,6 +3064,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2903,6 +3073,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2911,6 +3082,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2919,6 +3091,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2927,6 +3100,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2935,6 +3109,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2943,6 +3118,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2951,6 +3127,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2959,6 +3136,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2967,6 +3145,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2975,6 +3154,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box"
           selected={false}
         >
           <span>
@@ -2988,6 +3168,7 @@ exports[`Play page it renders play page 1`] = `
     >
       <div
         className="c10"
+        data-cy="powerball-label"
       >
         Select your powerball
       </div>
@@ -2996,6 +3177,7 @@ exports[`Play page it renders play page 1`] = `
       >
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3004,6 +3186,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3012,6 +3195,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3020,6 +3204,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3028,6 +3213,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3036,6 +3222,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3044,6 +3231,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3052,6 +3240,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3060,6 +3249,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3068,6 +3258,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3076,6 +3267,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3084,6 +3276,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3092,6 +3285,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3100,6 +3294,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3108,6 +3303,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3116,6 +3312,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3124,6 +3321,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3132,6 +3330,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
@@ -3140,6 +3339,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c8"
+          data-cy="box__selected__powerball"
           selected={true}
         >
           <svg
@@ -3161,6 +3361,7 @@ exports[`Play page it renders play page 1`] = `
         </div>
         <div
           className="c9"
+          data-cy="box__powerball"
           selected={false}
         >
           <span>
