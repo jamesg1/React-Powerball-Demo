@@ -1,4 +1,5 @@
 # Powerball Form Demo Project
+[![CircleCI](https://circleci.com/gh/jamesgDemo/Powerball-results-demo/tree/master.svg?style=svg)](https://circleci.com/gh/jamesgDemo/Powerball-results-demo/tree/master)
 
 This is a react typescript demo project which auto-fills ticket numbers based on the results of the last Powerball draw. 
 
@@ -17,6 +18,7 @@ Languages / Framework / Dependenies used:
 * Cypress used for E2E Frontend tests
 * ESLint and Prettier used for code formatting and standards
 * Precommit hooks on unit tests and linting
+* CircleCI integration with github to run unit tests
 
 ### Prerequisites
 To build and run this project it requires Node and npm/yarn.
