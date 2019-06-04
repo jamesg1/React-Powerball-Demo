@@ -41,6 +41,7 @@ exports[`<NumberCircle /> it renders powerball number circle 1`] = `
 
 <div
   className="c0"
+  data-cy="numberCircle__powerball"
 >
   <span
     className="Styled__Label-c3m4bn-1 "
@@ -91,6 +92,7 @@ exports[`<NumberCircle /> it renders primary number circle 1`] = `
 
 <div
   className="c0"
+  data-cy="numberCircle__primary"
 >
   <span
     className="Styled__Label-c3m4bn-1 "
@@ -143,6 +145,7 @@ exports[`<NumberCircle /> it renders secondary number circle with powerball labe
 
 <div
   className="c0"
+  data-cy="numberCircle__powerball"
 >
   <span
     className="Styled__Label-c3m4bn-1 "

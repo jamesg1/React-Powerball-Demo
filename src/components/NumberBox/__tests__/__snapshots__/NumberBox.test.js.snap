@@ -44,6 +44,7 @@ exports[`<NumberBox /> it renders cross icon when number is selected 1`] = `
 
 <div
   className="c0"
+  data-cy="box__selected"
   selected={true}
 >
   <svg
@@ -109,6 +110,7 @@ exports[`<NumberBox /> it renders when not selected 1`] = `
 
 <div
   className="c0"
+  data-cy="box"
 >
   <span>
     25

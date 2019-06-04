@@ -7,7 +7,7 @@ module.exports = {
   ],
   roots: ['<rootDir>/src/'],
   testEnvironment: 'node',
-  testPathIgnorePatterns: ['/build', '/dist/', '/examples/', '/node_modules/'],
+  testPathIgnorePatterns: ['/cypress/', '/build', '/dist/', '/examples/', '/node_modules/'],
   roots: ['<rootDir>', './src'],
   modulePaths: ['<rootDir>', './src'],
   setupFiles: ['./setupJest.ts'],

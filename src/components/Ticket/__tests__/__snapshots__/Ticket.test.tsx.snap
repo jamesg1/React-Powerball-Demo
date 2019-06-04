@@ -128,6 +128,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
 >
   <div
     className="c1"
+    data-cy="powerball-label"
   >
     Select your powerball
   </div>
@@ -136,6 +137,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
   >
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -144,6 +146,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c4"
+      data-cy="box__selected__powerball"
       selected={true}
     >
       <svg
@@ -165,6 +168,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -173,6 +177,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -181,6 +186,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -189,6 +195,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -197,6 +204,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -205,6 +213,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -213,6 +222,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -221,6 +231,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -229,6 +240,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -237,6 +249,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -245,6 +258,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -253,6 +267,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -261,6 +276,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -269,6 +285,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -277,6 +294,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -285,6 +303,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -293,6 +312,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -301,6 +321,7 @@ exports[`<Ticket /> it renders powerball numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__powerball"
       selected={false}
     >
       <span>
@@ -431,6 +452,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
   >
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -439,6 +461,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__selected"
       selected={true}
     >
       <svg
@@ -460,6 +483,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__selected"
       selected={true}
     >
       <svg
@@ -481,6 +505,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -489,6 +514,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -497,6 +523,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -505,6 +532,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -513,6 +541,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -521,6 +550,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -529,6 +559,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__selected"
       selected={true}
     >
       <svg
@@ -550,6 +581,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -558,6 +590,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -566,6 +599,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -574,6 +608,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -582,6 +617,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__selected"
       selected={true}
     >
       <svg
@@ -603,6 +639,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -611,6 +648,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -619,6 +657,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -627,6 +666,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -635,6 +675,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__selected"
       selected={true}
     >
       <svg
@@ -656,6 +697,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -664,6 +706,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -672,6 +715,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -680,6 +724,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -688,6 +733,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -696,6 +742,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -704,6 +751,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -712,6 +760,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -720,6 +769,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -728,6 +778,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -736,6 +787,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__selected"
       selected={true}
     >
       <svg
@@ -757,6 +809,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -765,6 +818,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -773,6 +827,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c2"
+      data-cy="box"
       selected={false}
     >
       <span>
@@ -781,6 +836,7 @@ exports[`<Ticket /> it renders primary numbers 1`] = `
     </div>
     <div
       className="c3"
+      data-cy="box__selected"
       selected={true}
     >
       <svg
