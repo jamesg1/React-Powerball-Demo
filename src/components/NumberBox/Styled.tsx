@@ -16,6 +16,7 @@ const Box = styled.div<Props>`
   transition: ${props => props.theme.transitions.all}
   border: 1px solid ${props => props.theme.colors.grey};
   margin: 0 -1px -1px 0;
+  transition: ${props => props.theme.transitions.all};
 
   > span {
     z-index: 5;
