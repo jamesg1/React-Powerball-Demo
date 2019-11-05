@@ -1,5 +1,5 @@
 # Powerball Form Demo Project
-[![CircleCI](https://circleci.com/gh/jamesgDemo/Powerball-results-demo/tree/master.svg?style=svg)](https://circleci.com/gh/jamesgDemo/Powerball-results-demo/tree/master)
+[![CircleCI](https://circleci.com/gh/jamesg1/React-Powerball-Demo/tree/master.svg?style=svg)](https://circleci.com/gh/jamesg1/React-Powerball-Demo/tree/master)
 
 This is a react typescript demo project which auto-fills ticket numbers based on the results of the last Powerball draw. 
 
@@ -30,7 +30,7 @@ See links below to install:
 ## Installation
 
 ```
-git clone https://github.com/jamesgDemo/Powerball-results-demo.git && cd Powerball-results-demo
+git clone https://github.com/jamesg1/React-Powerball-Demo.git && cd React-Powerball-Demo
 yarn install
 ```
 
