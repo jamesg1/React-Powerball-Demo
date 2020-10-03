@@ -1,50 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<NumberCircle /> it renders powerball number circle 1`] = `
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  font-size: 12px;
-  font-weight: 700;
-  margin-right: 3px;
-  width: 22px;
-  height: 22px;
-  -webkit-transition: all 400ms ease-in;
-  transition: all 400ms ease-in;
-  border-radius: 50%;
-  background-color: #879bab;
-  border: 2px solid #879bab;
-  color: #ffffff;
-}
-
-.c0:first-of-type {
-  box-shadow: none;
-}
-
-@media (min-width:321px) {
-  .c0 {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-  }
-}
-
 <div
-  className="c0"
+  className=""
   data-cy="numberCircle__powerball"
 >
   <span
-    className="Styled__Label-c3m4bn-1 "
+    className="Styled__Label-c3m4bn-1"
   >
     19
   </span>
@@ -52,50 +14,12 @@ exports[`<NumberCircle /> it renders powerball number circle 1`] = `
 `;
 
 exports[`<NumberCircle /> it renders primary number circle 1`] = `
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  font-size: 12px;
-  font-weight: 700;
-  margin-right: 3px;
-  width: 22px;
-  height: 22px;
-  -webkit-transition: all 400ms ease-in;
-  transition: all 400ms ease-in;
-  border-radius: 50%;
-  background-color: #3450a7;
-  border: 2px solid #3450a7;
-  color: #ffffff;
-}
-
-.c0:first-of-type {
-  box-shadow: none;
-}
-
-@media (min-width:321px) {
-  .c0 {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-  }
-}
-
 <div
-  className="c0"
+  className=""
   data-cy="numberCircle__primary"
 >
   <span
-    className="Styled__Label-c3m4bn-1 "
+    className="Styled__Label-c3m4bn-1"
   >
     31
   </span>
@@ -103,52 +27,12 @@ exports[`<NumberCircle /> it renders primary number circle 1`] = `
 `;
 
 exports[`<NumberCircle /> it renders secondary number circle with powerball label 1`] = `
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  font-size: 12px;
-  font-weight: 700;
-  margin-right: 3px;
-  width: 22px;
-  height: 22px;
-  -webkit-transition: all 400ms ease-in;
-  transition: all 400ms ease-in;
-  border-radius: 50%;
-  background-color: #ffffff;
-  border: 2px solid #dddddd;
-  color: #474747;
-  box-shadow: inset 0px 2px 2px #dddddd;
-}
-
-.c0:first-of-type {
-  box-shadow: none;
-  border: 2px solid #3450a7;
-}
-
-@media (min-width:321px) {
-  .c0 {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-  }
-}
-
 <div
-  className="c0"
+  className=""
   data-cy="numberCircle__powerball"
 >
   <span
-    className="Styled__Label-c3m4bn-1 "
+    className="Styled__Label-c3m4bn-1"
   >
     PB
   </span>
