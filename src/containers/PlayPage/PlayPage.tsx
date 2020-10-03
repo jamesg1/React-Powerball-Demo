@@ -90,7 +90,4 @@ const actions = {
   clearResults
 };
 
-export default connect(
-  mapStateToProps,
-  actions
-)(PlayPage);
+export default connect(mapStateToProps, actions)(PlayPage);

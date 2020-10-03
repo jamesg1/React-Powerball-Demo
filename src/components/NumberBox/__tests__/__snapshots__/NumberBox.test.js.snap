@@ -1,51 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<NumberBox /> it renders cross icon when number is selected 1`] = `
-.c0 {
-  position: relative;
-  color: #6C4796;
-  font-weight: 700;
-  background: #e9e4f1;
-  padding: 10px;
-  width: 10%;
-  height: 10%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-transition: all 400ms ease-in border:1px solid #cdcdcd;
-  transition: all 400ms ease-in border:1px solid #cdcdcd;
-  margin: 0 -1px -1px 0;
-  -webkit-transition: all 400ms ease-in;
-  transition: all 400ms ease-in;
-}
-
-.c0 > span {
-  z-index: 5;
-}
-
-.c0 > svg {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  width: 75%;
-  height: 75%;
-  position: absolute;
-  fill: white;
-}
-
 <div
-  className="c0"
+  className=""
   data-cy="box__selected"
   selected={true}
 >
@@ -69,51 +26,8 @@ exports[`<NumberBox /> it renders cross icon when number is selected 1`] = `
 `;
 
 exports[`<NumberBox /> it renders when not selected 1`] = `
-.c0 {
-  position: relative;
-  color: #6C4796;
-  font-weight: 700;
-  background: #ffffff;
-  padding: 10px;
-  width: 10%;
-  height: 10%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-transition: all 400ms ease-in border:1px solid #cdcdcd;
-  transition: all 400ms ease-in border:1px solid #cdcdcd;
-  margin: 0 -1px -1px 0;
-  -webkit-transition: all 400ms ease-in;
-  transition: all 400ms ease-in;
-}
-
-.c0 > span {
-  z-index: 5;
-}
-
-.c0 > svg {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  width: 75%;
-  height: 75%;
-  position: absolute;
-  fill: white;
-}
-
 <div
-  className="c0"
+  className=""
   data-cy="box"
 >
   <span>
