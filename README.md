@@ -66,4 +66,4 @@ By [James Gosbell](https://github.com/jamesg1)
 
 ## License
 
-This project is unlicensed.
+MIT License
