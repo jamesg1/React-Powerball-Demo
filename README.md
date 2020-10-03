@@ -3,6 +3,8 @@
 
 This is a react typescript demo project which auto-fills ticket numbers based on the results of the last Powerball draw. 
 
+https://react-powerball-demo.now.sh/
+
 <img width="400" alt="Screenshot" src="https://user-images.githubusercontent.com/51249461/58845020-f0985700-86bc-11e9-845c-7788eaff51ca.png">
 
 Languages / Framework / Dependenies used:
